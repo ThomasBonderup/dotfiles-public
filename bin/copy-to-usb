@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+cp -r ~/bachelor/. /media/usb-drive/bachelor

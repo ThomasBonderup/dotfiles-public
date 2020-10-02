@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Install all the necessary Ubuntu packages, especially 'stow'.
+./install_packages
+
+stow emacs
+stow fonts
+stow gtkrc-2.0
+stow i3

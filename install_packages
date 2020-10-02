@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo apt install \
+     package \
+     package \
+
+sudo snap install \
+	package \
+    package \
+

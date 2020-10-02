@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# echo $(date +'%Y-%m-%d'): ${1} >> /home/thomas/todos.txt
+
+echo $(date +'%Y-%m-%d'): ${1} >> ~/todos.txt

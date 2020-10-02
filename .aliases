@@ -1,0 +1,90 @@
+# unix
+alias c='cat'
+alias le='less -j4'
+alias b='bat'
+alias chex='chmod +x'
+alias cpr='cp -r'
+alias cpc='xsel -b >'
+alias k9='kill -9'ii
+alias em='emacs'
+alias rr='rm -Rf'
+alias sz='source ~/.zshrc'
+alias uz='unzip'
+alias sni='sudo snap install'
+alias sai='sudo apt install'
+alias python='/usr/bin/python3'
+alias cap='flameshot gui'
+alias CC='$(fc -l -n -1) | clipcopy'
+
+# desktop
+alias xauto='xrandr --auto'
+alias xautol='xrandr --output LVDS-1 --off'
+
+# executables
+alias cs='create-script'
+alias ti='timer'
+alias tmzs='timezones'
+
+# network
+alias wi='sudo nmtui'
+
+# git
+alias gupd='git-update'
+
+# docker
+alias dk='docker'
+alias dkci='docker exec -it'
+alias dkp='docker ps'
+alias dkb='docker build -t'
+alias dkbnc='docker build --no-cache -t'
+alias dks='docker start'
+alias dkt='docker stop'
+
+# docker-compose
+alias dkc='docker-compose'
+alias dkcs='docker-compose ps'
+alias dkcup='docker-compose up -d'
+alias dkcupb='docker-compose up -d --build'
+alias dkclog='docker-compose logs'
+alias dkcd='docker-compose down'
+
+# maven
+alias mvnc='./mvnw clean package'
+alias mvncs='./mvnw clean package -DskipTests'
+
+# kubernetes
+alias kc=kubectl
+
+
+# ksqlDB
+
+
+# minikube
+alias mks='minikube start'
+alias mkt='minikube stop'
+
+# Apache Kafka
+
+
+# global (to be chained with _ -> sudo, or expanded anywhere)
+
+# unix
+alias -g md='mkdir -p'
+alias -g wh='which'
+alias -g G='| grep'
+alias -g L='| less'
+alias -g H='| head'
+alias -g C='| clipcopy'
+alias -g B='| bat'
+alias -g K='| kafkacat'
+
+# suffix
+alias -s {pdf,PDF}='background mupdf'
+alias -s {jpg,JPG,png,PNG}='background gpicview'
+alias -s {ods,ODS,odt,ODT,odp,ODP,doc,DOC,docx,DOCX,xls,XLS,xlsx,XLSX,xlsm,XLSM,ppt,PPT,pptx,PPTX,csv,CSV}='background libreoffice'
+alias -s {html,HTML}='background google-chrome'
+alias -s {mp4,MP4,mov,MOV,mkv,MKV}='background vlc'
+alias -s {zip,ZIP,war,WAR}="unzip -l"
+alias -s {jar,JAR}="java -jar"
+alias -s gz="tar -tf"
+alias -s {tgz,TGZ}="tar -tf"
